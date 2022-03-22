@@ -55,4 +55,3 @@ function game() {
         console.log("GAME OVER")
     }
 }
-console.log(game())
