@@ -50,7 +50,17 @@ body {
     gap: 50px;
 }
 
-.button {
+.rockbutton {
+    height: 60px;
+    width: 60px;
+}
+
+.paperbutton {
+    height: 60px;
+    width: 60px;
+}
+
+.scissorsbutton {
     height: 60px;
     width: 60px;
 }
@@ -65,8 +75,13 @@ body {
     gap: 50px;
 }
 
-.score {
-    border: 4px solid black;
+.userscore {
+    border: 4px solid crimson;
+    padding: 5px;
+}
+
+.computerscore {
+    border: 4px solid crimson;
     padding: 5px;
 }
 
@@ -74,7 +89,7 @@ body {
     align-self: center;
     padding: 10px;
     text-align: center;
-    border: 4px solid black;
+    border: 4px solid crimson;
 }
 
 .container3 {
